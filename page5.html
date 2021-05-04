@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)file:///C:/Users/Dell/c%20programing/css/page1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page1</title>
+   
+    <link rel="stylesheet" href="file:///C:/Users/Dell/c%20programing/css/%3Clink%20rel=" preconnect"="">
+    <link href="./page5_files/css2" rel="stylesheet">
+    <style>
+        .container{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+.element{
+    border: 2px solid red;
+    width: 20%;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 6px 1px rgb(175, 170, 170);
+}
+.side{
+    display: inline;
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+.heading{
+    font-size: 35px;
+    font-style: bold;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 300;
+    color:rgb(230, 71, 23);
+}
+
+s{
+    color: rgb(255, 28, 28);
+    font-size: 30px;
+    margin-left: 40px;
+}
+.top-heading-side{
+    display: inline-block;
+    font-size: 50px;
+    position: relative;
+    left: 160px;
+    margin-top: 90px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(106, 104, 104);
+    font-weight: 100;
+}
+.top-heading{
+    display: inline-block;
+    font-size: 50px;
+    margin-bottom: 12px;
+    position: relative;
+    left: 155px;
+    margin-top: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+.external{
+    position: absolute;
+    right: 170px;
+    margin-bottom: 12px;
+    font-size: 28px;
+    display: inline-block;
+    margin-top: 105px;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 300;
+    color: rgb(106, 104, 104);
+}
+#image{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 255px;
+    display: inline-block;
+    margin-top: 89px;
+}
+.strike{
+    text-decoration:line-through rgb(255, 21, 0);
+    font-size: 30px;
+    margin-left: 30px;
+    color: red;
+    position: relative;
+    bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.heading:after{
+    content: "";
+    display: block;
+    width: 232px;
+    height: 1.8px;
+    background-color: rgb(106, 104, 104);
+    position: relative;
+    left: 73px;
+    top: 13px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="outer-block">
+        <h1 class="top-heading">Tasks</h1>
+        <span class="top-heading-side">List</span>
+        <img id="image" class="external" src="./page5_files/add+board+new+plus+icon-1320186882821780394.png" alt="">
+        <span class="external">Add List</span>
+        <div class="container">
+            <div class="element">
+                <p class="heading">Trip to Paris</p><br><br>
+                <p class="strike">Completed Task</p><br>
+                <div class="side">
+                    <input class="side" type="checkbox">
+                    <p class="side">Pending Task</p>
+                </div>
+            </div>
+            <div class="element">
+                <p class="heading">My Todo List</p><br><br>
+                <p class="strike">Completed Task</p><br>
+                <div class="side">
+                    <input class="side" type="checkbox">
+                    <p class="side">Pending Task</p>
+                </div>
+            </div>
+            <div class="element">
+                <p class="heading">My Todo List</p><br><br>
+                <p class="strike">Completed Task</p><br>
+                <div class="side">
+                    <input class="side" type="checkbox">
+                    <p class="side">Pending Task</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
